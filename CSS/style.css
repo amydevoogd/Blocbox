@@ -243,6 +243,7 @@ p {
    font-style:italic;
  }
  /* TESTIMONIALS */
+
  .testimonials {
    padding:4em 0;
    text-align: center;
@@ -290,4 +291,7 @@ p {
    text-align: left;
    font-size:13px;
    margin-top: 30px;
+ }
+  .boxstagger {
+   margin-top:20px;
  }
