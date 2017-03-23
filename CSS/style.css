@@ -295,6 +295,32 @@ p {
   .boxstagger {
    margin-top:20px;
  }
+
+ /* FINALCTA */
+ .finalcta {
+   color:#FFFFFF;
+   background: #34495E;
+   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+   height: 400px;
+   position: relative;
+ }
+ .finalcta {
+   text-align: center;
+   display:block;
+   position: relative;
+ }
+ .finalcta h1 {
+   font-size:48px;
+   font-weight: normal;
+   margin:95px 0 0;
+ }
+ .finalcta p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+
  /* FOOTER */
  footer {
    background-color: #34495E;
