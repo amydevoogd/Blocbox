@@ -298,7 +298,7 @@ p {
    text-align: center;
    color:#FFFFFF;
    background: #34495E;
-   height: 400px;
+   padding: 4em 0;
 }
   .finalcta h1 {
    font-size:48px;
@@ -308,8 +308,8 @@ p {
    font-size: 22px;
    line-height: 26px;
    font-weight: 100;
-   margin: 10px 0 40px;
- }
+   margin: 0px 0 40px;
+  }
 
  /* FOOTER */
  footer {
