@@ -47,7 +47,7 @@ p {
    .container {
      width: 750px;
    }
- }
+}
  @media (min-width: 992px) {
    .container {
      width: 970px;
@@ -74,15 +74,19 @@ p {
    background: #34495E;
    background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
  }
+ header .site-logo {
+   display: block;
+   text-align: center;
+   margin: 0 0 10px;
+ }
  header nav {
    padding:1em 0;
  }
   header nav ul {
-   display:inline;
-   text-align: right;
-   float:right;
+   display: block;
+   text-align: center;
    margin:0;
- }
+ } 
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
@@ -125,7 +129,17 @@ p {
    max-width: 750px;
    width: 100%;
  }
-
+ @media (min-width: 768px) {
+   header nav ul {
+     text-align: right;
+     float: right;
+   }
+   header .site-logo {
+     display: inline;     
+     text-align: left;
+   }
+}
+ 
   /* BUTTONS */
  .btn {
    border-radius: 4px;
@@ -136,6 +150,7 @@ p {
    background: #2ECC71;
    border: 2px solid #2ECC71;
    box-shadow: 0px 2px 0px 0px #22894E;
+   display: inline-block;
  }
 
   /* BENEFITS */
@@ -297,12 +312,13 @@ p {
  .finalcta {
    text-align: center;
    color:#FFFFFF;
-   background: #34495E;
+   background: #243648;
    padding: 4em 0;
 }
-  .finalcta h1 {
-   font-size:48px;
+  .finalcta h2 {
+   font-size: 48px;
    font-weight: normal;
+   margin: 0;
  }
  .finalcta p {
    font-size: 22px;
