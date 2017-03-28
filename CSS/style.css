@@ -85,12 +85,11 @@ p {
   header nav ul {
    display: block;
    text-align: center;
-   margin:0;
  } 
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
-   margin:0 15px;
+   margin:0 15px 0 0;
  }
  header nav ul > li.btn-outline {
    padding:10px 15px;
@@ -133,6 +132,7 @@ p {
    header nav ul {
      text-align: right;
      float: right;
+     margin: 0;
    }
    header .site-logo {
      display: inline;     
@@ -313,7 +313,7 @@ p {
    text-align: center;
    color:#FFFFFF;
    background: #243648;
-   padding: 4em 0;
+   padding: 2em 0;
 }
   .finalcta h2 {
    font-size: 48px;
